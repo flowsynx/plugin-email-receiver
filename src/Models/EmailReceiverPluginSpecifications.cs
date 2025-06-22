@@ -5,7 +5,7 @@ namespace FlowSynx.Plugins.Email.Receiver.Models;
 public class EmailReceiverPluginSpecifications : PluginSpecifications
 {
     [RequiredMember]
-    public string Host { get; set; }
+    public string Host { get; set; } = string.Empty;
 
     public int Port { get; set; } = 993;
 
