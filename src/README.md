@@ -1,4 +1,4 @@
-# FlowSynx EmailReceiver Plugin – FlowSynx Platform Integration
+## FlowSynx EmailReceiver Plugin – FlowSynx Platform Integration
 
 The Email Receiver Plugin is a pre-packaged, plug-and-play integration component for the FlowSynx engine. It enables workflows to receive and process incoming emails, allowing users to automate actions based on email content, sender, subject, and attachments, and is designed for FlowSynx’s no-code/low-code automation workflows.
 
