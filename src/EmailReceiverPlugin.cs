@@ -27,7 +27,7 @@ public class EmailReceiverPlugin : IPlugin
                 CompanyName = "FlowSynx",
                 Description = Resources.PluginDescription,
                 Version = new PluginVersion(1, 0, 0),
-                Namespace = PluginNamespace.Connectors,
+                Category = PluginCategory.Communication,
                 Authors = new List<string> { "FlowSynx" },
                 Copyright = "© FlowSynx. All rights reserved.",
                 Icon = "flowsynx.png",
@@ -35,7 +35,6 @@ public class EmailReceiverPlugin : IPlugin
                 RepositoryUrl = "https://github.com/flowsynx/plugin-email-receiver",
                 ProjectUrl = "https://flowsynx.io",
                 Tags = new List<string>() { "flowSynx", "email", "email-receiver", "communication", "collaboration" },
-                Category = PluginCategories.Communication
             };
         }
     }
